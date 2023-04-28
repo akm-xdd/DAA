@@ -1,5 +1,4 @@
 #include <iostream>
-
 using namespace std;
 
 const int MAX = 100; // maximum number of vertices in the graph

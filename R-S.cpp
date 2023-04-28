@@ -1,6 +1,6 @@
 #include <iostream>
 #include <cstdlib>
-#include <ctime>
+
 using namespace std;
 
 int random_partition(int arr[], int left, int right) {
@@ -31,7 +31,6 @@ int main() {
     int arr[] = {3, 7, 9, 2, 4, 6, 1, 8, 5};
     int n = sizeof(arr) / sizeof(arr[0]);
     int k = 5;
-    srand(time(NULL));
     int kth_smallest = randomized_select(arr, 0, n-1, k);
     cout << "The " << k << "th smallest element is: " << kth_smallest << endl;
     return 0;
